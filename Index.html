@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadCRM</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./Style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./Assets/image/logo.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu">
+                            <ul>
+                                <h4>Feature</h4>
+                                <li><a class="dropdown-item" href="#">Lead Finder</a></li>
+                                <li><a class="dropdown-item" href="#">Team Management</a></li>
+                                <li><a class="dropdown-item" href="#">Deal Management</a></li>
+                                <li><a class="dropdown-item" href="#">Waterfall Data Enrichment</a></li>
+                            </ul>
+                            <ul>
+                                <h4>Lead CRM Intigration</h4>
+                                <li><a class="dropdown-item" href="#">CRM Integration</a></li>
+                            </ul>
+                            <ul>
+                                <h4>Extention</h4>
+                                <li><a class="dropdown-item" href="#">Chrome</a></li>
+                                <li><a class="dropdown-item" href="#">FireFox</a></li>
+                                <li><a class="dropdown-item" href="#">Edge</a></li>
+                            </ul>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown"><a href="#">Pricing</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-blog"></i>Blog API
+                                    Documentation</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-regular fa-paste"></i>Documentation</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrows-turn-to-dots"></i>LeadCRM
+                                    Alternative</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-paperclip"></i>LinkedIn CRM
+                                    Integration Guidee</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file-export"></i>Lead Export
+                                    Guide</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-regular fa-circle-question"></i>FAQs</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Company
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fa-regular fa-building"></i>About Us</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-phone-volume"></i>Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button>
+                    <a href="#" class="Account">
+                        <div class="qube">
+                            <div class="front">Get Your Free Account</div>
+                            <div class="back">Get Your Free Account</div>
+                        </div>
+                    </a>
+                </button>
+                <button>
+                    <div class="login">
+                        <a href=""><i class="fa-solid fa-right-to-bracket"></i>Login</a>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hr-tl">
+                <p><img src="./Assets/image/rocket-icon.svg" alt="">Stop Juggling Tabs. Start Closing Deals.</p>
+            </div>
+            <div class="hr-md">
+                <h1>LinkedIn Leads, Instantly <span>Synced.<img src="./Assets/image/line-1.jpg" alt=""></span></h1>
+                <p>LeadCRM embeds your CRM directly into LinkedIn, automating prospect syncing and data enrichment in
+                    one click.</p>
+            </div>
+
+            <div class="crm-animation">
+                <p class="crm-text">Work with</p>
+                <div class="slider">
+                    <marquee class="marq-1" direction="up" loop="">
+                        <div class="sl-1">
+                            <img src="./Assets/image/6.jpg" alt="">
+                            <p class="mr-text">ZOHO</p>
+                        </div>
+
+                        <div class="sl-2">
+                            <img src="./Assets/image/3.jpg" alt="">
+                            <p class="mr-text">HubSpot</p>
+                        </div>
+
+                        <div class="sl-2">
+                            <img src="./Assets/image/4.jpg" alt="">
+                            <p class="mr-text">SalesForce</p>
+                        </div>
+
+                        <div class="sl-2">
+                            <img src="./Assets/image/5.jpg" alt="">
+                            <p class="mr-text">Pipedrive</p>
+                        </div>
+                    </marquee>
+                </div>
+                <p class="crm-text">& more</p>
+            </div>
+
+
+            <div class="rate">
+                <div class="ggl">
+                    <img src="./Assets/image/google.jpg" alt="">
+                    <p><i class="fa-solid fa-star" style="color: #f8e50de2;"></i><i class="fa-solid fa-star"
+                            style="color: #f8e50de2;"></i><i class="fa-solid fa-star" style="color: #f8e50de2;"></i><i
+                            class="fa-solid fa-star" style="color: #f8e50de2;"></i><i class="fa-solid fa-star"
+                            style="color: #f8e50de2; margin-right: 10px;"></i>5/5</p>
+                </div>
+
+                <div class="ggl">
+                    <img src="./Assets/image/20.jpg" alt="">
+                    <p><i class="fa-solid fa-star" style="color: #f8e50de2;"></i><i class="fa-solid fa-star"
+                            style="color: #f8e50de2;"></i><i class="fa-solid fa-star" style="color: #f8e50de2;"></i><i
+                            class="fa-solid fa-star" style="color: #f8e50de2;"></i><i class="fa-solid fa-star"
+                            style="color: #f8e50de2; margin-right: 10px;"></i>5/5</p>
+                </div>
+            </div>
+
+
+            <div class="hr-btm">
+                <div class="avl-on">
+                    <div class="avl-txt">
+                        <a href="">
+                            <p>Available in</p>
+                            <h4>Chrom Web Store</h4>
+                        </a>
+                    </div>
+                    <img src="./Assets/image/google.jpg" alt="">
+                </div>
+
+                <div class="get-acc">
+                    <a href="#">Get Your Acconunt Now!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slider -->
+    <section class="carousel-sld">
+        <div class="carousel__slider">
+            <ul class="carousel__list">
+                <li class="carousel__item">
+                    <img src="./Assets/image/12.jpg" alt="">
+                    <p>Advanced AI Productivity</p>
+                </li>
+                <li class="carousel__item">
+                    <img src="./Assets/image/8.jpg" alt="">
+                    <p>Instant Email Finder</p>
+                </li>
+                <li class="carousel__item">
+                    <img src="./Assets/image/10.jpg" alt="">
+                    <p>Advanced Waterfall Enrichment</p>
+                </li>
+                <li class="carousel__item">
+                    <img src="./Assets/image/14.jpg" alt="">
+                    <p>Custom Field Mapping</p>
+                </li>
+                <li class="carousel__item">
+                    <img src="./Assets/image/15.jpg" alt="">
+                    <p>One click push to CRM</p>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- CRM -->
+    <section class="crm-comparison">
+        <h2>Stop Letting a Broken Workflow Dictate Your Sales Results.</h2>
+
+        <div class="crm-container">
+
+            <!-- Without LeadCRM -->
+            <div class="crm-card without-crm">
+                <h3>Without LeadCRM</h3>
+                <ul>
+                    <img src="./Assets/image/1.jpg" alt="">
+                    <li style="margin-top: 20px;"><span class="cross"><i class="fa-solid fa-xmark"></i></span> Manual
+                        Data Entry <span class="sm-txt">3+ Hours wasted daily</span></li>
+                    <li><span class="cross"><i class="fa-solid fa-xmark"></i></span> Incomplete Data <span
+                            class="sm-txt">60% Data incomplete</span></li>
+                    <li><span class="cross"><i class="fa-solid fa-xmark"></i></span> No CRM Visibility <span
+                            class="sm-txt">Zero context available</span></li>
+                    <li><span class="cross"><i class="fa-solid fa-xmark"></i></span> Limited Productivity <span
+                            class="sm-txt">No smart assistance</span></li>
+                </ul>
+            </div>
+
+            <div class="crm-card with-crm">
+                <h3>With LeadCRM <small>4+ Hours/day Saved</small></h3>
+                <ul>
+                    <img src="./Assets/image/2.jpg" alt="">
+                    <li style="margin-top: 20px;"><span class="check"><i class="fa-solid fa-check"></i></span> Complete
+                        Bi-Directional Sync</li>
+                    <li><span class="check"><i class="fa-solid fa-check"></i></span> 700M+ Contacts + Enrichment</li>
+                    <li><span class="check"><i class="fa-solid fa-check"></i></span> CRM Overlay on LinkedIn</li>
+                    <li><span class="check"><i class="fa-solid fa-check"></i></span> AI Response + Templates + Bulk
+                        Exports</li>
+                </ul>
+            </div>
+
+            <div class="get-acc-2">
+                <a href="#">Get Your Acconunt Now!</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- How it's work -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How it Works</h2>
+            <p class="subtitle">From setup to success in <span>4 simple steps</span></p>
+
+            <div class="steps">
+                <!-- Step 1 -->
+                <div class="step-card">
+                    <h3>1</h3>
+                    <h4>Install the Extension</h4>
+                    <p>Add LeadCRM to Chrome and connect your CRM in 2 minutes – secure and seamless.</p>
+                    <img src="./Assets/image/16.jpg">
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step-card">
+                    <h3>2</h3>
+                    <h4>Browse LinkedIn</h4>
+                    <p>Use LinkedIn normally, our extension auto-captures data and reveals CRM contacts instantly.</p>
+                    <img src="./Assets/image/17.jpg">
+                </div>
+
+                <!-- Step 3 -->
+                <div class="step-card">
+                    <h3>3</h3>
+                    <h4>Get Enriched Data</h4>
+                    <p>Enrich profiles with verified emails, phones, and company data with 95%+ accuracy guaranteed.</p>
+                    <img src="./Assets/image/18.jpg">
+                </div>
+
+                <!-- Step 4 -->
+                <div class="step-card">
+                    <h3>4</h3>
+                    <h4>Sync to CRM Instantly</h4>
+                    <p>Prospect data syncs to your CRM instantly with history, tracking, and AI powered insights.</p>
+                    <img src="./Assets/image/19.jpg">
+                </div>
+            </div>
+
+            <a href="#" class="cta-2">Try LeadCRM Now →</a>
+        </div>
+    </section>
+
+
+    <!-- Testimonial -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>See Why Top Performers Choose LeadCRM</h2>
+            <div class="testimonial-cards">
+
+                <!-- Card 1 -->
+                <div class="testimonial-card">
+                    <p>“It’s been a really positive experience overall. I use LeadCRM to build qualified leads from
+                        LinkedIn and sync them into HubSpot. The platform has saved me hours of manual work every week.
+                        I would especially highlight their customer support — they are fast, knowledgeable, and
+                        genuinely helpful.”</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="author">
+
+                        <div>
+                            <h4>Olivia M.</h4>
+                            <small>On Capterra</small>
+                        </div>
+                        <img src="./Assets/image/olivia.jpg" alt="Olivia">
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="testimonial-card">
+                    <p>“Keeps Me Organized! I never lose track of a lead now that I can see and create tasks right in
+                        LinkedIn. The inbuilt enrichment is excellent, and when it misses anything, integrations fill in
+                        the gaps.”</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="author">
+                        <div>
+                            <h4>Paul Kevin</h4>
+                            <small>On Google</small>
+                        </div>
+                        <img src="./Assets/image/tst-2.png" alt="Paul">
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="testimonial-card">
+                    <p>“Hunter.io Integration is Great! I love that LeadCRM uses multiple sources, including its own. If
+                        one source doesn’t have the data, the next source does. Message templates help me send quick,
+                        consistent messages.”</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="author">
+                        <div>
+                            <h4>Ruthie Smith</h4>
+                            <small>On G2</small>
+                        </div>
+                        <img src="./Assets/image/tst-3.png" alt="Ruthie">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Solution -->
+    <section class="solutions">
+        <div class="container">
+            <h2>Complete LinkedIn Sales Solutions</h2>
+            <p class="subtitle">Everything you need for professional LinkedIn prospecting</p>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab active" data-tab="enrichment"><img src="./Assets/image/tab-icon-1.webp" alt="">CRM
+                    Data Enrichment</button>
+                <button class="tab" data-tab="sync"><img src="./Assets/image/tab-icon-2.webp" alt="">CRM Data
+                    Sync</button>
+                <button class="tab" data-tab="bulk"><img src="./Assets/image/tab-icon-3.webp" alt="">Bulk Export &
+                    Enrichment</button>
+                <button class="tab" data-tab="ai"><img src="./Assets/image/tab-icon-4.webp" alt="">AI
+                    Productivity</button>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-content active" id="enrichment">
+                <p class="note">It’s hard to find the accurate contact data for every prospects. <span
+                        class="tag">Incomplete Data</span></p>
+                <div class="cards">
+                    <div class="card">
+                        <h4>Get Access to 700M+ Prospects.</h4>
+                        <p><a href="#">Try LeadCRM Data Enrichment &gt;</a></p>
+                        <img src="./Assets/image/23.jpg" alt="Enrichment 1">
+                    </div>
+                    <div class="card">
+                        <h4>Capture Every Lead. Every Time.</h4>
+                        <p><a href="#">Try Our Advanced Waterfall Enrichment &gt;</a></p>
+                        <img src="./Assets/image/24.jpg" alt="Enrichment 2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="sync">
+                <p class="note">40+ hours lost to copy-paste. Every. Single. Month. <span class="tag">Lost Lead
+                        Contact</span></p>
+                <div class="cards">
+                    <div class="card">
+                        <h4>The Solution? LeadCRM’s Instant Data Sync.</h4>
+                        <p><a href="#">Try LeadCRM Data Sync &gt;</a></p>
+                        <img src="./Assets/image/31.png" alt="Data Sync">
+                    </div>
+                    <div class="card">
+                        <h4>Unlock instant CRM insights on every profile you visit.</h4>
+                        <p><a href="#">Try LeadCRM Data Overlay &gt;</a></p>
+                        <img src="./Assets/image/30.png" alt="Data Overlay">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="bulk">
+                <p class="note">Your Sales Navigator Workflow is Broken. <span class="tag">Lost Productivity</span></p>
+                <div class="cards">
+                    <div class="card">
+                        <h4>Enrich & Export 250 Profiles in Just 60 Seconds.</h4>
+                        <p><a href="#">Try LeadCRM Bulk Export &gt;</a></p>
+                        <img src="./Assets/image/28.jpg" alt="Bulk Export 1">
+                    </div>
+                    <div class="card">
+                        <h4>Export & enrich profiles to the CRM or G-Sheet</h4>
+                        <p><a href="#">Try LeadCRM Bulk Export &gt;</a></p>
+                        <img src="./Assets/image/29.png" alt="Bulk Export 2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="ai">
+                <p class="note">Your Most Valuable LinkedIn Activity is Also Your Biggest Time Sink. <span
+                        class="tag">No Smart Assistance</span></p>
+                <div class="cards">
+                    <div class="card">
+                        <h4>Get the same high-impact engagement in 80% less time.</h4>
+                        <p><a href="#">Try LeadCRM AI Response &gt;</a></p>
+                        <img src="./Assets/image/26.jpg" alt="AI Response">
+                    </div>
+                    <div class="card">
+                        <h4>Use Shortcuts to reply faster.</h4>
+                        <p><a href="#">Try LeadCRM Templates &gt;</a></p>
+                        <img src="./Assets/image/27.jpg" alt="AI Templates">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Diagram -->
+    <section class="drg">
+        <div class="container-drg">
+            <h1>Your CRM, Now the Single Source of Truth.</h1>
+            <p>
+                Sync complete LinkedIn profiles and use our flexible field mapping to ensure every detail,
+                from job history to contact info, populates exactly where you need it, creating a perfectly
+                organized CRM automatically.
+            </p>
+
+            <div class="diagram">
+                <!-- Replace with actual image -->
+                <img src="./Assets/image/25.jpg" alt="CRM Flow Diagram">
+            </div>
+
+            <a href="#" class="cta-1">Try LeadCRM Now →</a>
+        </div>
+    </section>
+
+
+    <!-- Revenue Engine -->
+    <section class="revenue">
+        <div class="container">
+            <h3>Turn Your LinkedIn into a Revenue Engine.</h3>
+
+            <div class="revenue-banner">
+                <h1>Your LinkedIn Powerhouse for Smarter Lead Management</h1>
+                <img src="./Assets/image/22.jpg" alt="LinkedIn Powerhouse Banner">
+            </div>
+
+            <a href="#" class="cta-3">Get Started Today<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+
+    <!-- FAQs -->
+    <section class="faq-section">
+        <div class="FAQ-box">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        1. What exactly does LeadCRM do?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>LeadCRM is a browser extension that seamlessly connects your LinkedIn account (including
+                            Sales Navigator) to your CRM. It eliminates manual data entry by allowing you to instantly
+                            sync entire LinkedIn profiles—including contact information, experience, and skills—to your
+                            CRM in a single click. It’s designed to save your sales team dozens of hours a month,
+                            prevent data errors, and ensure your CRM is always up-to-date.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        2. Which CRMs do you integrate with?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer deep, bi-directional integrations with the most popular CRMs in the industry,
+                            including HubSpot, Salesforce, Zoho and Pipedrive. Our “two-way sync” means that data flows
+                            seamlessly between LinkedIn and your CRM, so your records are always enriched and current on
+                            both platforms. </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        3. Can I integrate my CRM if its not supported natively?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, you can integrate any CRM with our system as long as it supports certain APIs. Reach out
+                            to support@leadcrm.io to learn more.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        4. Can I control what information gets synced to my CRM?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, you have complete control. Our flexible field mapping allows you to precisely define
+                            which data from a LinkedIn profile goes into which specific field in your CRM. This ensures
+                            your data is perfectly organized according to your team’s workflow and prevents messy,
+                            inconsistent records. You can set it up once, and every sync will follow your rules
+                            automatically.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        5. How is LeadCRM different from other tools?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>LeadCRM stands out in three key ways: <br>
+                            True Bi-Directional Sync: Unlike tools that only push data one way, we keep both LinkedIn
+                            and your CRM perfectly in sync. <br>
+                            Waterfall Enrichment: We use an advanced process to find the most accurate and up-to-date
+                            contact information for your prospects. <br>
+                            Complete Profile Sync: We capture the entire profile, not just bits and pieces, and give you
+                            full control over where that data lands in your CRM.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        6. Is LeadCRM safe and GDPR compliant?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. We take data security and privacy very seriously. LeadCRM is built with
+                            enterprise-grade security practices to ensure your data and your customers’ data are always
+                            protected. We are fully GDPR compliant, and our processes are designed to help you maintain
+                            compliance while conducting your sales activities.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        7. What kind of support can I expect from LeadCRM?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer dedicated customer support to ensure you get the most out of LeadCRM. Our team is
+                            available via email and live chat to help you with everything from initial setup to
+                            optimizing your workflow. Pro-tier customers also receive a dedicated account manager for
+                            priority support. We’re committed to being responsive and helpful, so you’re never left
+                            without an answer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+
+          
+            <div class="footer-col">
+                <img src="./Assets/image/logo.jpg" alt="LeadCRM Logo" class="logo">
+                <p>LeadCRM is LinkedIn integration tool for your CRM.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook" style="color: white;"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter" style="color: white;"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin" style="color: white;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" style="color: white;"></i></a>
+                </div>
+            </div>
+
+      
+            <div class="footer-col">
+                <h4>Integrations</h4>
+                <ul>
+                    <li><a href="#">HubSpot</a></li>
+                    <li><a href="#">Salesforce</a></li>
+                    <li><a href="#">Pipedrive</a></li>
+                    <li><a href="#">Zoho</a></li>
+                    <li><a href="#">Copper CRM</a></li>
+                    <li><a href="#">Google Sheets</a></li>
+                    <li><a href="#">Close.io</a></li>
+                </ul>
+            </div>
+
+        
+            <div class="footer-col">
+                <h4>Alternative</h4>
+                <ul>
+                    <li><a href="#">Surfe VS LeadCRM</a></li>
+                    <li><a href="#">Linkmatch Alternative</a></li>
+                </ul>
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fa-regular fa-envelope"></i> <a
+                            href="mailto:support@leadcrm.io">support@leadcrm.io</a></li>
+                    <li><i class="fa-solid fa-phone"></i> +1-231-328-7466</li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                </ul>
+                <div class="chrome-btn">
+                    <a href="#"><img src="./Assets/image/google.jpg" alt="Chrome"> Available in Chrome</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="footer-bottom">
+            <p>Disclaimer: LeadCRM is not endorsed or certified by LinkedIn. All LinkedIn® logos and trademarks
+                displayed on this tool are property of LinkedIn. LeadCRM is distributed AS IS. Your use of LeadCRM is at
+                your own risk.</p>
+            <p>Copyright © 2025 LeadCRM. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./Main.js"></script>
+</body>
+
+</html>
